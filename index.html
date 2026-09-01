@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,200..600;1,6..72,200..600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #FBF9F5; -webkit-font-smoothing: antialiased; }
+  a { color: #1d4d78; text-decoration: none; }
+  a:hover { color: #0f3554; }
+  .om-rail { scrollbar-width: none; }
+  .om-rail::-webkit-scrollbar { display: none; }
+</style>
+</helmet>
+<div style="background: #FBF9F5; color: #14171a; font-family: 'IBM Plex Sans', system-ui, sans-serif; overflow-x: hidden;">
+
+  <section data-screen-label="Hero" style="position: relative; min-height: 100svh; display: flex; flex-direction: column; padding: clamp(16px, 3vw, 34px); box-sizing: border-box; background-image: url(&quot;assets/97a34c4e.png&quot;); background-size: cover; background-position: center; background-color: #0d2a44;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(175deg, rgba(13,42,68,0.88) 0%, rgba(13,42,68,0.55) 45%, rgba(8,20,32,0.92) 100%);"></div>
+
+    <header style="position: relative; display: flex; justify-content: space-between; align-items: center; gap: 14px; color: #fff;">
+      <span style="display: flex; align-items: center;">
+        <img src="assets/alaya-logo-blanco.png" alt="Alaya Capital" style="height: clamp(26px, 3vw, 34px); width: auto; display: block;">
+      </span>
+      <span style="font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; opacity: 0.78;">Invite only</span>
+    </header>
+
+    <div style="position: relative; flex: 1; display: flex; flex-direction: column; justify-content: center; gap: clamp(14px, 2vw, 22px); padding: clamp(34px, 6vh, 64px) 0;">
+      <div style="display: flex; align-items: center; gap: 14px; color: rgba(255,255,255,0.85); font-size: clamp(15px, 1.9vw, 22px); font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase;">
+        <span style="width: clamp(28px, 5vw, 56px); height: 1px; background: rgba(255,255,255,0.5);"></span>15° aniversario
+      </div>
+      <h1 style="font-family: 'Newsreader', serif; font-weight: 600; font-size: clamp(50px, 12.5vw, 158px); line-height: 0.9; letter-spacing: -0.025em; margin: 0; color: #fff;">Alaya<br>Summit</h1>
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px clamp(14px, 3vw, 34px); color: #fff;">
+        <span style="font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(26px, 4.4vw, 50px); letter-spacing: -0.01em;">Noviembre 2026</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px clamp(12px, 2.4vw, 26px); color: rgba(255,255,255,0.86); font-size: clamp(12px, 1.4vw, 15px); font-weight: 300;">
+        <span style="display: flex; align-items: center; gap: 9px; letter-spacing: 0.04em;">
+          <svg width="19" height="12" sc-camel-view-box="0 0 30 20" aria-label="Argentina" style="display: block; border-radius: 1px; opacity: 0.95;"><rect width="30" height="20" fill="#fff"></rect><rect width="30" height="6.67" fill="#74ACDF"></rect><rect y="13.33" width="30" height="6.67" fill="#74ACDF"></rect></svg>
+          Mendoza, Argentina
+        </span>
+        <span style="width: 1px; height: 13px; background: rgba(255,255,255,0.32);"></span>
+        <span>Hotel Amérian Chacras de Coria</span>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; padding-top: clamp(6px, 1.6vw, 14px);">
+        <a href="#postular" style="display: inline-flex; align-items: center; gap: 10px; background: #fff; color: #0d2a44; padding: 13px 24px; font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase;" style-hover="background: #74ACDF; color: #0d2a44;">Registrarme <span style="font-size: 13px;">→</span></a>
+        <a href="#agenda" style="display: inline-flex; align-items: center; gap: 10px; border: 1px solid rgba(255,255,255,0.42); color: #fff; padding: 13px 24px; font-size: 11px; font-weight: 400; letter-spacing: 0.18em; text-transform: uppercase;" style-hover="border-color: #fff; background: rgba(255,255,255,0.1);">Ver agenda</a>
+      </div>
+    </div>
+
+    <div style="position: relative; display: flex; flex-direction: column; gap: 10px;">
+      <span style="font-size: 9px; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255,255,255,0.6);">Ediciones anteriores</span>
+      <div class="om-rail" style="display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 2px;">
+        <div style="flex: 1 0 128px; scroll-snap-align: start; position: relative; height: clamp(88px, 12vh, 116px); background-image: url(&quot;assets/f8a7444d.png&quot;); background-size: cover; background-position: center;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,20,32,0) 35%, rgba(8,20,32,0.9) 100%);"></div>
+          <div style="position: absolute; left: 10px; bottom: 8px; color: #fff; display: flex; flex-direction: column; line-height: 1.25;">
+            <span style="font-family: 'Newsreader', serif; font-size: 17px; font-weight: 300;">2022</span>
+            <span style="font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.82;">Córdoba</span>
+          </div>
+        </div>
+        <div style="flex: 1 0 128px; scroll-snap-align: start; position: relative; height: clamp(88px, 12vh, 116px); background-image: url(&quot;assets/5dd0c92d.png&quot;); background-size: cover; background-position: center;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,20,32,0) 35%, rgba(8,20,32,0.9) 100%);"></div>
+          <div style="position: absolute; left: 10px; bottom: 8px; color: #fff; display: flex; flex-direction: column; line-height: 1.25;">
+            <span style="font-family: 'Newsreader', serif; font-size: 17px; font-weight: 300;">2023</span>
+            <span style="font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.82;">Montevideo</span>
+          </div>
+        </div>
+        <div style="flex: 1 0 128px; scroll-snap-align: start; position: relative; height: clamp(88px, 12vh, 116px); background-image: url(&quot;assets/23aed15d.png&quot;); background-size: cover; background-position: center;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,20,32,0) 35%, rgba(8,20,32,0.9) 100%);"></div>
+          <div style="position: absolute; left: 10px; bottom: 8px; color: #fff; display: flex; flex-direction: column; line-height: 1.25;">
+            <span style="font-family: 'Newsreader', serif; font-size: 17px; font-weight: 300;">2024</span>
+            <span style="font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.82;">Cusco</span>
+          </div>
+        </div>
+        <div style="flex: 1 0 128px; scroll-snap-align: start; position: relative; height: clamp(88px, 12vh, 116px); background-image: url(&quot;assets/cd342f1b.png&quot;); background-size: cover; background-position: center;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8,20,32,0) 35%, rgba(8,20,32,0.9) 100%);"></div>
+          <div style="position: absolute; left: 10px; bottom: 8px; color: #fff; display: flex; flex-direction: column; line-height: 1.25;">
+            <span style="font-family: 'Newsreader', serif; font-size: 17px; font-weight: 300;">2025</span>
+            <span style="font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.82;">Santiago</span>
+          </div>
+        </div>
+        <div style="flex: 1 0 128px; scroll-snap-align: start; position: relative; height: clamp(88px, 12vh, 116px); background-image: url(&quot;assets/39caa863.png&quot;); background-size: cover; background-position: center; outline: 2px solid #74ACDF; outline-offset: -2px;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,42,68,0.25) 0%, rgba(13,42,68,0.92) 100%);"></div>
+          <span style="position: absolute; top: 7px; left: 8px; display: flex; align-items: center; gap: 5px; background: #74ACDF; color: #0d2a44; font-size: 7.5px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; padding: 3px 6px;">Esta edición</span>
+          <div style="position: absolute; left: 10px; bottom: 8px; color: #fff; display: flex; flex-direction: column; line-height: 1.25;">
+            <span style="font-family: 'Newsreader', serif; font-size: 17px; font-weight: 400;">2026</span>
+            <span style="font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #bcd8f2;">Mendoza · 9–11 nov</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-screen-label="Statement" style="position: relative; display: flex; align-items: center; min-height: clamp(420px, 78svh, 760px); padding: clamp(52px, 8vw, 120px) clamp(22px, 6vw, 110px); box-sizing: border-box; background-image: url(&quot;assets/bd64cf83.jpg&quot;); background-size: cover; background-position: center; background-attachment: fixed; background-color: #0d2a44;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(100deg, rgba(13,42,68,0.94) 0%, rgba(13,42,68,0.72) 55%, rgba(8,20,32,0.55) 100%);"></div>
+    <div style="position: relative; display: flex; flex-direction: column; gap: clamp(18px, 2.4vw, 30px); max-width: 900px; color: #fff;">
+      <span style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: #bcd8f2;">El encuentro</span>
+      <p style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(27px, 4.2vw, 58px); line-height: 1.14; letter-spacing: -0.02em; text-wrap: pretty;">Tres días en los que el capital y el impacto se sientan en la misma mesa.</p>
+    </div>
+  </section>
+
+  <section data-screen-label="Públicos" style="padding: clamp(44px, 6vw, 96px) clamp(22px, 5vw, 90px); display: flex; flex-direction: column; gap: clamp(24px, 3vw, 40px);">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 30px;">
+      <span style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: #1d4d78;">Quiénes conviven</span>
+      <span style="font-size: 12px; font-weight: 300; color: #8b9098;">Tres públicos, una misma agenda</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: clamp(10px, 1.4vw, 18px);">
+      <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 8px; padding: clamp(20px, 2.4vw, 30px); background: #0d2a44; color: #fff;">
+        <span style="font-family: 'Newsreader', serif; font-size: 13px; color: #74ACDF;">01</span>
+        <h3 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(23px, 2.6vw, 34px); letter-spacing: -0.01em;">Founders</h3>
+        <p style="margin: 0; font-size: clamp(13px, 1.35vw, 15px); font-weight: 300; line-height: 1.55; color: rgba(255,255,255,0.8);">Startups de impacto en más de 20 mercados de la región.</p>
+      </div>
+      <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 8px; padding: clamp(20px, 2.4vw, 30px); background: #0d2a44; color: #fff;">
+        <span style="font-family: 'Newsreader', serif; font-size: 13px; color: #74ACDF;">02</span>
+        <h3 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(23px, 2.6vw, 34px); letter-spacing: -0.01em;">Fondos &amp; GPs</h3>
+        <p style="margin: 0; font-size: clamp(13px, 1.35vw, 15px); font-weight: 300; line-height: 1.55; color: rgba(255,255,255,0.8);">Venture Capital, Private Equity, Private Credit y Real Assets.</p>
+      </div>
+      <div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 8px; padding: clamp(20px, 2.4vw, 30px); background: #0d2a44; color: #fff;">
+        <span style="font-family: 'Newsreader', serif; font-size: 13px; color: #74ACDF;">03</span>
+        <h3 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(23px, 2.6vw, 34px); letter-spacing: -0.01em;">Inversores &amp; LPs</h3>
+        <p style="margin: 0; font-size: clamp(13px, 1.35vw, 15px); font-weight: 300; line-height: 1.55; color: rgba(255,255,255,0.8);">De más de 10 países de LatAm y Estados Unidos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="agenda" data-screen-label="Agenda" style="padding: clamp(44px, 6vw, 96px) clamp(22px, 5vw, 90px) clamp(52px, 7vw, 110px); display: flex; flex-direction: column; gap: clamp(22px, 3vw, 38px); background: #F4F0E8; border-top: 1px solid #E7E1D7;">
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 30px;">
+      <span style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: #1d4d78;">Agenda</span>
+      <span style="font-size: 12px; font-weight: 300; color: #8b9098;">8 al 11 de noviembre</span>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: clamp(10px, 1.4vw, 18px);">
+      <div style="display: flex; flex-direction: column; background: #fff; border: 1px solid #EDE7DC;">
+        <div style="height: clamp(120px, 15vw, 190px); background-image: url(&quot;assets/fogon.jpg&quot;); background-size: cover; background-position: 50% 62%;"></div>
+        <div style="display: flex; flex-direction: column; gap: 7px; padding: clamp(18px, 2.2vw, 26px);">
+          <div style="display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;">
+            <span style="font-family: 'Newsreader', serif; font-size: clamp(26px, 3vw, 40px); font-weight: 200; color: #1d4d78; line-height: 1;">08</span>
+            <span style="font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #8b9098;">Domingo</span>
+            <span style="font-size: 9.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #1d4d78;">Solo emprendedores</span>
+          </div>
+          <p style="margin: 0; font-size: clamp(14px, 1.5vw, 17px); font-weight: 300; line-height: 1.5;">Fogón + networking</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; background: #fff; border: 1px solid #EDE7DC;">
+        <div style="height: clamp(120px, 15vw, 190px); background-image: url(&quot;assets/cocktail.jpg&quot;); background-size: cover; background-position: 50% 60%;"></div>
+        <div style="display: flex; flex-direction: column; gap: 7px; padding: clamp(18px, 2.2vw, 26px);">
+          <div style="display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;">
+            <span style="font-family: 'Newsreader', serif; font-size: clamp(26px, 3vw, 40px); font-weight: 200; color: #1d4d78; line-height: 1;">09</span>
+            <span style="font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #8b9098;">Lunes</span>
+          </div>
+          <p style="margin: 0; font-size: clamp(14px, 1.5vw, 17px); font-weight: 300; line-height: 1.5;">Reverse Pitch, Rafting, Welcome Cocktail</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; background: #fff; border: 1px solid #EDE7DC;">
+        <div style="height: clamp(120px, 15vw, 190px); background-image: url(&quot;assets/bd64cf83.jpg&quot;); background-size: cover; background-position: center;"></div>
+        <div style="display: flex; flex-direction: column; gap: 7px; padding: clamp(18px, 2.2vw, 26px);">
+          <div style="display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;">
+            <span style="font-family: 'Newsreader', serif; font-size: clamp(26px, 3vw, 40px); font-weight: 200; color: #1d4d78; line-height: 1;">10</span>
+            <span style="font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #8b9098;">Martes</span>
+          </div>
+          <p style="margin: 0; font-size: clamp(14px, 1.5vw, 17px); font-weight: 300; line-height: 1.5;">Alaya Talks, Bodega, Roundtables</p>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; background: #fff; border: 1px solid #EDE7DC;">
+        <div style="height: clamp(120px, 15vw, 190px); background-image: url(&quot;assets/paneles.jpg&quot;); background-size: cover; background-position: 50% 55%;"></div>
+        <div style="display: flex; flex-direction: column; gap: 7px; padding: clamp(18px, 2.2vw, 26px);">
+          <div style="display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;">
+            <span style="font-family: 'Newsreader', serif; font-size: clamp(26px, 3vw, 40px); font-weight: 200; color: #1d4d78; line-height: 1;">11</span>
+            <span style="font-size: 9.5px; letter-spacing: 0.2em; text-transform: uppercase; color: #8b9098;">Miércoles</span>
+          </div>
+          <p style="margin: 0; font-size: clamp(14px, 1.5vw, 17px); font-weight: 300; line-height: 1.5;">Paneles sobre fundraising y exits, liderazgo, historias de emprendedores</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="postular" data-screen-label="CTA" style="position: relative; min-height: clamp(500px, 88svh, 860px); display: flex; flex-direction: column; justify-content: center; padding: clamp(52px, 8vw, 120px) clamp(22px, 6vw, 110px); box-sizing: border-box; background-image: url(&quot;assets/39caa863.png&quot;); background-size: cover; background-position: center; background-color: #1a1216;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,16,26,0.6) 0%, rgba(10,16,26,0.78) 100%);"></div>
+    <div style="position: relative; display: flex; flex-direction: column; gap: clamp(20px, 2.6vw, 34px); color: #fff; max-width: 900px;">
+      <span style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: #bcd8f2;">Invite only · registro</span>
+      <h2 style="margin: 0; font-family: 'Newsreader', serif; font-weight: 300; font-size: clamp(32px, 5.2vw, 76px); line-height: 1.06; letter-spacing: -0.025em; max-width: 20ch;">Registrate al Summit 2026</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <a href="https://luma.com/931qsig7" target="_blank" rel="noopener" style="display: flex; flex-direction: column; gap: 5px; flex: 1 1 250px; background: #fff; color: #0d2a44; padding: 18px 22px;" style-hover="background: #74ACDF;">
+          <span style="font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase;">Soy founder →</span>
+          <span style="font-size: 12px; font-weight: 500; color: #0d2a44;">8 al 11 de noviembre</span>
+          <span style="font-size: 12px; font-weight: 300; color: #4a5158;">Startups de impacto con componente de IA</span>
+        </a>
+        <a href="https://luma.com/j9eglnu6" target="_blank" rel="noopener" style="display: flex; flex-direction: column; gap: 5px; flex: 1 1 250px; border: 1px solid rgba(255,255,255,0.45); color: #fff; padding: 18px 22px;" style-hover="background: rgba(255,255,255,0.12); border-color: #fff;">
+          <span style="font-size: 11px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase;">Soy inversor / fondo →</span>
+          <span style="font-size: 12px; font-weight: 500; color: #fff;">9 al 11 de noviembre</span>
+          <span style="font-size: 12px; font-weight: 300; color: rgba(255,255,255,0.72);">LPs, GPs y family offices de LatAm y EEUU</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background: #0d2a44; color: #fff; padding: clamp(36px, 5vw, 72px) clamp(22px, 5vw, 90px) clamp(22px, 3vw, 40px); display: flex; flex-direction: column; gap: clamp(26px, 3.4vw, 46px);">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px 44px;">
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <span style="display: flex; align-items: center;">
+          <img src="assets/alaya-logo-blanco.png" alt="Alaya Capital" style="height: clamp(30px, 3.4vw, 40px); width: auto; display: block;">
+        </span>
+        <span style="display: flex; align-items: center; gap: 9px; font-size: 12.5px; font-weight: 300; color: rgba(255,255,255,0.78);">
+          <svg width="17" height="11" sc-camel-view-box="0 0 30 20" aria-label="Argentina" style="display: block; border-radius: 1px;"><rect width="30" height="20" fill="#fff"></rect><rect width="30" height="6.67" fill="#74ACDF"></rect><rect y="13.33" width="30" height="6.67" fill="#74ACDF"></rect></svg>
+          Mendoza, Argentina
+        </span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <span style="font-size: 9.5px; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(255,255,255,0.55);">Contacto</span>
+        <a href="mailto:info@alaya.capital" style="font-size: clamp(15px, 1.8vw, 19px); font-weight: 300; color: #fff;" style-hover="color: #74ACDF;">info@alaya.capital</a>
+      </div>
+    </div>
+    <div style="border-top: 1px solid rgba(255,255,255,0.16); padding-top: 16px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font-size: 10.5px; letter-spacing: 0.06em; color: rgba(255,255,255,0.55);">
+      <span>© 2026 Alaya Capital</span>
+    </div>
+  </footer>
+</div>
+
+</x-dc>
+</body>
+</html>
